@@ -24,6 +24,7 @@ export default function SellerForm() {
         e.preventDefault();
         setLoading(true);
         try {
+            // edited
             const res = await fetch('/api/send-email', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
