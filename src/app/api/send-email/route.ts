@@ -20,8 +20,8 @@ export async function POST(req: NextRequest) {
     });
 
     await transporter.sendMail({
-      from: '"NextJS Form" <your-email@example.com>',
-      to: 'your-email@example.com', // ایمیل دریافت کننده
+      from: '"NextJS Form" <sales@tanakora.online>',
+      to: 'support@tanakora.online', // ایمیل دریافت کننده
       subject: 'فرم فروشنده جدید',
       html: `
         <h2>فرم فروشنده جدید</h2>
