@@ -13,7 +13,14 @@ export const metadata: Metadata = {
   description: " قرار داد و ثبت نام فروشندگان تاناکورا ",
   icons:{
     icon:"/tanakorafivoIconef.png"
-  }
+  },
+    keywords:[
+    "عضویت فروشندگان تاناکورا",
+    "فروشگاه تاناکورا",
+    "وبسایت تانکورا",
+    "وبسایت تانکورا پنل فروشندگان",
+    "ثبت نام فروشنده تاناکورا",
+  ],
 };
 
 export default function RootLayout({
