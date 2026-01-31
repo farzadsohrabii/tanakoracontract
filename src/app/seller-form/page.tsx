@@ -32,7 +32,7 @@ export default function SellerForm() {
             });
 
             if (res.ok) {
-                router.push('/thankYou');
+                router.push('/thank-you');
             } else {
                 alert('خطا در ارسال فرم');
             }
