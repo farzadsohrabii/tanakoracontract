@@ -9,7 +9,7 @@ export default function CheckBox() {
 
   const handleGo = () => {
     if (!checked) return;
-    router.push('/next-page');
+    router.push('/seller-form');
   };
 
   return (
