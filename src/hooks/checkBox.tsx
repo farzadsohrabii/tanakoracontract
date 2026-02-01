@@ -21,7 +21,7 @@ export default function CheckBox() {
           onChange={(e) => setChecked(e.target.checked)}
           className="h-4 w-4 accent-blue-600"
         />
-        <span className="text-sm">
+        <span className="text-sm text-[#000000c9]">
           قوانین و شرایط را می‌پذیرم
         </span>
       </label>

@@ -15,15 +15,15 @@ export default function Home() {
     return (
 
         <div className="md:flex-row-reverse md:justify-center ------------- w-full h-dvh flex flex-col items-center ">
-            <header className=" md:pr-2 md:left-5  md:w-[94%] md:right-7 md:border-r-0 md:flex-row-reverse md:border-[black] ------------- bg-white fixed w-[97%] h-[8.2%] top-[2%] flex flex-col border-2">
+            <header className=" md:pr-2 md:left-5  md:w-[94%] md:right-7 md:border-r-0 md:flex-row-reverse md:border-[black] ------------- bg-transparent fixed w-[97%] h-[8.2%] top-[2%] flex flex-col md:border-2 md:shadow-none border shadow border-[#dcdddd]">
                 <div className=" md:w-[20%]  ------------- flex w-full mt-auto mb-auto">
-                    <h1 className="md:w-max md:text-[22px] md:mr-5 md:ml-auto md:text-black  ------------- w-full h-max font-bold text-[20px] text-[#fe5400] text-center ">قرارداد فروشندگی تاناکورا</h1>
+                    <h1 className="md:w-max md:text-[22px] md:mr-5 md:ml-auto md:text-black  ------------- w-full h-max font-bold text-[20px] text-[#e47035eb] text-center ">قرارداد فروشندگی تاناکورا</h1>
                 </div>
                 <div className=" md:w-[80%] md:flex md:items-center ------------- hidden ">
                     <nav className="md:w-max flex flex-row-reverse justify-center md:gap-7  md:ml-5 w-42 gap-2 ml-auto mr-auto border rounded border-b-0 rounded-b-2xl md:border-0">
-                        <a href="#about" className="md:w-18 w-9 text-[14px] h-max md:text-[20px] text-center">معرفی</a>
-                        <a href="#agreement" className="md:w-18 w-9 text-[14px] h-max md:text-[20px] text-center">قرارداد</a>
-                        <a href="#confirm" className="md:w-18 w-9 text-[14px] h-max md:text-[20px] text-center">ثبت نام</a>
+                        <a href="#about" className="md:w-18 w-9 text-[14px] h-max md:text-[20px] text-center text-[#000000c9]">معرفی</a>
+                        <a href="#agreement" className="md:w-18 w-9 text-[14px] h-max md:text-[20px] text-center text-[#000000c9]">قرارداد</a>
+                        <a href="#confirm" className="md:w-18 w-9 text-[14px] h-max md:text-[20px] text-center text-[#000000c9]">ثبت نام</a>
                     </nav>
                 </div>
             </header>
@@ -32,7 +32,7 @@ export default function Home() {
                 <section className="" id="about">
                     <div className=" w-full md:h-36  md:pr-20">
                         <div className="inline-block mt-10">
-                            <p className="text-[13px]">
+                            <p className="text-[13px] text-[#000000c9]">
                                 لطفا تمام موارد را با دقت بخوانید.
                             </p>
                         </div>
@@ -42,19 +42,19 @@ export default function Home() {
 
                         <div className=" md:h-max md:w-[28%] md:pr-18 md:mt-0 ------------ mt-2">
                             <div >
-                                <p className="md:text-[140px] ------------- font-bold  w-max text-2xl">
+                                <p className="md:text-[140px] text-[#000000c9] ------------- font-bold  w-max text-2xl">
                                     01
                                 </p>
                             </div>
                         </div>
                         {/* ---------------------- contract */}
-                        <div className=" md:h-max  border-t-3 md:mt-11 md:w-250 flex flex-col pt-3 gap-9">
+                        <div className=" md:h-max  border-t-3 border-[#000000c9] md:mt-11 md:w-250 flex flex-col pt-3 gap-9">
                             {/* ---------------------- 1 main div */}
                             <div className="flex flex-row w-max- h-max ">
-                                
-                                    {/* ---------------------- tanakora website & about us */}
-                                    <ArticleParagraph Article=" وبسایت تاناکورا " number=" درباره ما " />
-                                
+
+                                {/* ---------------------- tanakora website & about us */}
+                                <ArticleParagraph Article=" وبسایت تاناکورا " number=" درباره ما " />
+
                                 <div className="w-[65%] ">
                                     <div className="">
                                         <ClauseParagraph text=" تاناکورا یک بازار آنلاین برای خرید و فروش پوشاک، اکسسوری و کالاهای خاص و باکیفیت است؛ جایی که محصولات اورجینال، تاناکورا (دست‌دوم باکیفیت) و کالاهای منتخب از فروشندگان مختلف، در یک بستر امن، شفاف و قابل اعتماد به دست مشتریان می‌رسد." />
@@ -64,14 +64,14 @@ export default function Home() {
                                         <ClauseParagraph text=" جایی که فروشندگان مستقل، بوتیک‌ها و واردکنندگان می‌توانند محصولات خود را به‌صورت مستقیم و شفاف عرضه کنند و در عین حال، مشتریان با خیال راحت خرید کنند. " />
                                         <ClauseParagraph text=" در تاناکورا، هر کالا—چه نو و چه تاناکورا—باید استانداردهای مشخصی را رعایت کند. برای اجناس تاناکورا، سیستم درجه‌بندی کیفیت (Grade A / B / C) تعریف شده تا خریدار دقیقاً بداند چه چیزی دریافت می‌کند. ما تلاش می‌کنیم تجربه‌ای بسازیم که در آن انتخاب آگاهانه، جایگزین حدس و تردید شود. " />
                                         <ClauseParagraph text=" از طرف دیگر، با فراهم‌کردن زیرساخت‌های فروش آنلاین، ارسال متمرکز، بسته‌بندی یکپارچه، پشتیبانی مشتریان و سیستم تسویه شفاف، فرآیند فروش را برای فروشندگان ساده‌تر و حرفه‌ای‌تر کرده‌ایم؛ تا آن‌ها بتوانند تمرکز اصلی خود را روی کیفیت کالا بگذارند. " />
-                                        <ClauseParagraph text=" تاناکورا چطور کار می‌کند؟ " items={[" تاناکورا فروشگاه مستقیم نیست، بلکه پلی است بین فروشندگان معتبر و مشتریان: " , " فروشندگان محصولات خود را در وبسایت تاناکورا ثبت می‌کنند " , "سفارش‌ها از طریق فروشگاه مرکزی تاناکورا پردازش می‌شوند " , " بسته‌بندی، ارسال و پشتیبانی مشتریان توسط تیم تاناکورا انجام می‌شود " , " مشتری با اطمینان خرید می‌کند و فروشنده بدون دغدغه فروش آنلاین، رشد می‌کند "]} />
-                                        <ClauseParagraph text=" چرا تاناکورا؟ " items={["  تمرکز جدی روی اصالت کالا و شفافیت اطلاعات " , "  درجه‌بندی کیفیت برای اجناس تاناکورا " , " بررسی و کنترل سفارش‌ها قبل از ارسال " , " پشتیبانی واقعی و پاسخ‌گو " , " ایجاد فرصت فروش آنلاین برای فروشندگان محلی و مستقل "]} />
+                                        <ClauseParagraph text=" تاناکورا چطور کار می‌کند؟ " items={[" تاناکورا فروشگاه مستقیم نیست، بلکه پلی است بین فروشندگان معتبر و مشتریان: ", " فروشندگان محصولات خود را در وبسایت تاناکورا ثبت می‌کنند ", "سفارش‌ها از طریق فروشگاه مرکزی تاناکورا پردازش می‌شوند ", " بسته‌بندی، ارسال و پشتیبانی مشتریان توسط تیم تاناکورا انجام می‌شود ", " مشتری با اطمینان خرید می‌کند و فروشنده بدون دغدغه فروش آنلاین، رشد می‌کند "]} />
+                                        <ClauseParagraph text=" چرا تاناکورا؟ " items={["  تمرکز جدی روی اصالت کالا و شفافیت اطلاعات ", "  درجه‌بندی کیفیت برای اجناس تاناکورا ", " بررسی و کنترل سفارش‌ها قبل از ارسال ", " پشتیبانی واقعی و پاسخ‌گو ", " ایجاد فرصت فروش آنلاین برای فروشندگان محلی و مستقل "]} />
                                         <ClauseParagraph text=" ماموریت تاناکورا این است که خرید کالاهای خاص، اورجینال و تاناکورا را ساده، امن و قابل اعتماد کند؛ و هم‌زمان، بستری منصفانه برای رشد فروشندگان فراهم آورد " />
                                         <ClauseParagraph text=" تاناکورا برای همه است؛برای کسانی که به استایل خاص اهمیت می‌دهند،برای خانواده‌ها،برای کسانی که کیفیت را به کمیت ترجیح می‌دهند،و برای فروشندگانی که می‌خواهند محصولاتشان دیده شود.تاناکورا؛ جایی که بازار واقعی، دیجیتال می‌شود" />
                                     </div>
                                 </div>
                             </div>
-                        
+
                         </div>
                     </div>
                     {/* 02 */}
@@ -79,19 +79,19 @@ export default function Home() {
 
                         <div className=" md:h-max w-[28%] md:pr-18">
                             <div >
-                                <p className="md:text-[140px] font-bold  w-max">
+                                <p className="md:text-[140px] font-bold  w-max text-[#000000c9]">
                                     02
                                 </p>
                             </div>
                         </div>
                         {/* ---------------------- contract */}
-                        <div className=" md:h-max border-t-3 md:mt-11 md:w-250 flex flex-col pt-3 gap-9">
+                        <div className=" md:h-max border-t-3 border-[#000000c9] md:mt-11 md:w-250 flex flex-col pt-3 gap-9">
                             {/* ---------------------- 1 main div */}
                             <div className="flex flex-row w-max- h-max ">
-                                
-                                    {/* ---------------------- tanakora website & about us */}
-                                    <ArticleParagraph Article=" واژه‌ها و اصطلاحات " number="" />
-                                
+
+                                {/* ---------------------- tanakora website & about us */}
+                                <ArticleParagraph Article=" واژه‌ها و اصطلاحات " number="" />
+
                                 <div className="w-[65%] ">
                                     <div className="">
                                         <ClauseParagraph text=" پلتفرم تاناکورا / Tanakora.Online " note=" وب‌سایتی که زیرساخت فروش آنلاین، درگاه پرداخت، مدیریت سفارش‌ها و خدمات پشتیبانی را ارائه می‌دهد. " />
@@ -100,7 +100,7 @@ export default function Home() {
                                         <ClauseParagraph text=" مرجوعی / Return " note=" بازگرداندن کالا توسط مشتری به علت مغایرت با مشخصات ثبت‌شده، عیب فنی، کیفیت نامطلوب یا بسته‌بندی نامناسب. " />
                                         <ClauseParagraph text=" کمیسیون / Commission " note=" درصدی از مبلغ فروش کالا (به‌استثنای هزینه ارسال) که فروشنده به پلتفرم پرداخت می‌کند. " />
                                         <ClauseParagraph text=" بسته‌بندی اولیه / Initial Packaging " note=" بسته‌بندی اولیه انجام شده توسط فروشنده که باید استاندارد، ایمن و مناسب حمل‌ونقل باشد. " />
-                                        <ClauseParagraph text=" اصالت کالا / Authenticity " note=" تضمین واقعی بودن کالا مطابق با آنچه در توضیحات محصول آمده است. " />                                    
+                                        <ClauseParagraph text=" اصالت کالا / Authenticity " note=" تضمین واقعی بودن کالا مطابق با آنچه در توضیحات محصول آمده است. " />
                                         <ClauseParagraph text=" کالاهای دست‌دوم / Second-hand Items " note=" کالاهایی که قبلاً استفاده شده‌اند و طبق طبقه‌بندی Grade A، B یا C دسته‌بندی می‌شوند. " />
                                         <ClauseParagraph text=" فورس ماژور / Force Majeure " note="  رویدادهای غیرقابل پیش‌بینی و خارج از کنترل طرفین که مانع اجرای تعهدات می‌شوند (مثلاً سیل، زلزله، جنگ، اختلالات زیرساختی، همه‌گیری) " />
                                         <ClauseParagraph text=" محرمانگی اطلاعات / Confidentiality " note=" تعهد طرفین به حفاظت و استفاده محدود از اطلاعات محرمانه مربوط به فروشنده، مشتریان و سفارش‌ها. " />
@@ -122,13 +122,13 @@ export default function Home() {
                     <div className=" w-full md:h-max md:flex md:flex-row">
                         <div className=" md:h-max w-[28%] md:pr-18">
                             <div >
-                                <p className="md:text-[140px] font-bold  w-max">
+                                <p className="md:text-[140px] font-bold  w-max text-[#000000c9]">
                                     03
                                 </p>
                             </div>
                         </div>
                         {/* ---------------------- contract */}
-                        <div className=" md:h-max border-t-3 md:mt-11 md:w-250 flex flex-col pt-3 gap-9">
+                        <div className=" md:h-max border-t-3 border-[#000000c9] md:mt-11 md:w-250 flex flex-col pt-3 gap-9">
                             {/* ---------------------- 1 main div */}
                             <div className="flex flex-row w-max- h-max ">
                                 {/* ---------------------- 1 */}
@@ -382,11 +382,11 @@ export default function Home() {
 
                 {/* ---------------------- conirm section */}
 
-                <section className="md:pr-18 md:mt-4 md:h-38 ---------- flex mb-4 " id="confirm"> 
+                <section className="md:pr-18 md:mt-4 md:h-38 ---------- flex mb-4 " id="confirm">
                     <div className="w-full flex justify-center ">
                         <CheckBox />
                     </div>
-                    
+
                 </section>
             </main>
             <footer className="md:fixed md:right-8 md:h-[96%] md:w-[4%] md:flex md:flex-col -------------- w-[97%] h-32 hidden">

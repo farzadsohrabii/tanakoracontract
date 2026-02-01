@@ -17,8 +17,8 @@ export default function ArticleParagraph({
     return (
         <div className="md:w-[30%] ----------- w-[34%]">
 
-            <p className="font-bold ">{number}</p>
-            <p className="md:text-3xl font-bold md:w-55 text-[14px] ">{Article}</p>
+            <p className="font-bold text-[#000000c9]">{number}</p>
+            <p className="md:text-3xl font-bold md:w-55 text-[14px] text-[#000000c9]">{Article}</p>
 
         </div>
     );

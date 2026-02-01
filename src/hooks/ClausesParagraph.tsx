@@ -31,24 +31,24 @@ export default function ClauseParagraph({
 }: ClauseParagraphProps) {
   return (
     <div  className={`mb-4 ${textDivClassName}`}>
-      <p className="  md:text-[16px] -------------- text-justify leading-6 text-[12px] ">
+      <p className="  md:text-[16px] text-[#000000c9] -------------- text-justify leading-6 text-[12px] ">
         {text}
       </p>
       {items && items.length > 0 && (
           <ul className="list-disc pr-5">
-            <p className="md:mt-3 md:text-justify md:leading-6 md:text-[16px] ------------- text-[12px]"> {listheader} </p>
+            <p className="md:mt-3 md:text-justify md:leading-6 md:text-[16px] text-[#000000c9] ------------- text-[12px]"> {listheader} </p>
             {items.map((item , index) => (
-              <li className={`md:text-[16px] ----------- text-[12px] ${listClassName}`} key={index}>
+              <li className={`md:text-[16px] text-[#000000c9] ----------- text-[12px] ${listClassName}`} key={index}>
                 {item}
               </li>
             ) ) }         
           </ul>
       )}
 
-      <p className=" text-justify leading-6 pr-10 md:text-[13px] text-[#fe5400] text-[12px]">
+      <p className=" text-justify leading-6 pr-10 md:text-[13px] text-[#e47035eb] text-[12px]">
           {note}
       </p>
-      <p className=" text-justify leading-6 pr-10 md:text-[13px] text-[#fe5400] text-[12px]">
+      <p className=" text-justify leading-6 pr-10 md:text-[13px] text-[#e47035eb] text-[12px]">
           {note2}
       </p>
     </div>
