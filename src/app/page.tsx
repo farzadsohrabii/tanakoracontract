@@ -15,7 +15,7 @@ export default function Home() {
     return (
 
         <div className="md:flex-row-reverse md:justify-center ------------- w-full h-dvh flex flex-col items-center ">
-            <header className=" md:pr-2 md:left-5  md:w-[94%] md:right-7 md:border-r-0 md:flex-row-reverse md:border-[black] ------------- bg-transparent fixed w-[97%] h-[8.2%] top-[2%] flex flex-col md:border-2 md:shadow-none border shadow border-[#dcdddd]">
+            <header className=" md:pr-2 md:left-5  md:w-[94%] md:right-7 md:border-r-0 md:flex-row-reverse md:border-[black] ------------- bg-[#0000000f] fixed w-[97%] h-[8.2%] top-[2%] flex flex-col md:border-2 md:shadow-none border shadow border-[#dcdddd]">
                 <div className=" md:w-[20%]  ------------- flex w-full mt-auto mb-auto">
                     <h1 className="md:w-max md:text-[22px] md:mr-5 md:ml-auto md:text-black  ------------- w-full h-max font-bold text-[20px] text-[#e47035eb] text-center ">قرارداد فروشندگی تاناکورا</h1>
                 </div>
