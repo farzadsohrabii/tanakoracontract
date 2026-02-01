@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: "عضویت فروشندگان تاناکورا",
   description: " قرار داد و ثبت نام فروشندگان تاناکورا ",
   icons:{
-    icon:"/tanakorafivoIconef.png"
+    icon:"/favicon"
   },
     keywords:[
     "عضویت فروشندگان تاناکورا",
